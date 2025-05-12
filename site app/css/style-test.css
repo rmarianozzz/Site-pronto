@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #1c1e21;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #1877f2;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #385898;
+  }
+  
+  .user-info input {
+    width: calc(25% - 10px);
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .section {
+    margin-top: 20px;
+  }
+  
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .skills-list button {
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e7f3ff;
+    color: #1877f2;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .skills-list button.selected {
+    background-color: #1877f2;
+    color: white;
+  }
+  
+  .skills-list button:hover {
+    background-color: #d0e4ff;
+  }
+  
+  #ver-resultado {
+    margin-top: 30px;
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .resultado {
+    margin-top: 30px;
+  }
+  
+  .card-talento {
+    display: inline-block;
+    width: 260px;
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    vertical-align: top;
+  }
+  
+  .card-talento h3 {
+    color: #1877f2;
+  }
+  
+  .card-talento p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
