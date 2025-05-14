@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Commets</title>
+  <link rel="stylesheet" href="./css/style-index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <div class="logo">
+        <h2>Bem vindo a Commits</h2>
+      </div>
+
+     
+      <form id="loginForm" class="form-box active">
+        <input type="email" id="login-email" placeholder="Email" required>
+        <input type="password" id="login-password" placeholder="Senha" required>
+        <button type="submit">Entrar</button>
+        <p id="login-error"></p>
+
+        <p>Ainda não tem uma conta? <button type="button" id="showSignupBtn">Cadastrar</button></p>
+      </form>
+
+   
+      <form id="signupForm" class="form-box">
+        <input type="email" id="signup-email" placeholder="Email" required>
+        <input type="password" id="signup-password" placeholder="Senha" required>
+        <button type="submit">Criar Conta</button>
+        <p id="signup-error"></p>
+
+        <p>Já tem uma conta? <button type="button" id="showLoginBtn">Entrar</button></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

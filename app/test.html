@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teste de Aptidões</title>
+  <link rel="stylesheet" href="css/style-test.css" />
+</head>
+<body>
+  <header>
+    <h1>Descubra suas Aptidões</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="formulario">
+      <h2>Informe seus dados pessoais</h2>
+      <div class="user-info">
+        <input type="number" placeholder="Idade" id="idade" min="10" max="100" />
+        <input type="number" placeholder="Peso (kg)" id="peso" min="20" max="200" />
+        <input type="number" placeholder="Altura (cm)" id="altura" min="100" max="250" />
+        <input type="text" placeholder="CEP (ex: 01001-000)" id="cep" />
+      </div>
+
+      <h2>Escolha até 5 Aptidões Intelectuais</h2>
+      <div class="aptidoes" id="intelectuais">
+        <button>Programação</button>
+        <button>Matemática</button>
+        <button>Idiomas</button>
+        <button>Ciência</button>
+        <button>Filosofia</button>
+        <button>Lógica</button>
+        <button>Pesquisa</button>
+        <button>Leitura Rápida</button>
+        <button>Negociação</button>
+        <button>Debate</button>
+        <button>Design Gráfico</button>
+        <button>Escrita Criativa</button>
+      </div>
+
+      <h2>Escolha até 5 Aptidões Físicas</h2>
+      <div class="aptidoes" id="fisicas">
+        <button>Velocidade</button>
+        <button>Resistência</button>
+        <button>Agilidade</button>
+        <button>Fôlego</button>
+        <button>Musculatura</button>
+        <button>Coordenação</button>
+        <button>Reflexo</button>
+        <button>Condicionamento Físico</button>
+        <button>Controle Corporal</button>
+        <button>Percepção Espacial</button>
+      </div>
+
+      <button id="ver-resultado">Ver Resultado</button>
+    </section>
+
+    <section id="resultado"></section>
+  </main>
+
+  <script src="js/test.js"></script>
+</body>
+</html>
